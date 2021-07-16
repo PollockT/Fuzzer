@@ -36,7 +36,7 @@ namespace Fuzzer
                 {
                     Console.WriteLine("Possible XSS point found in parameter: " + parm);
                 }
-                if (sqlresp.Contains("error in you SQL syntax"))
+                if (sqlresp.Contains("error in your SQL syntax"))
                 {
                     Console.WriteLine("SQL injection point found in parameter: " + parm);
                 }
